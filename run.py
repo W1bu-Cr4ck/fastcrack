@@ -1,4 +1,5 @@
 #!/usr/bin/python2
+#!/usr/bin/python2
 # coding=utf-8
 # OPEN SOURCE KODE
 ################################################
@@ -105,11 +106,11 @@ def jalan(z):
 def logo():
 	os.system("clear")
 	print("""
-\x1b[1;97m    _____            __        _____             __  
-\x1b[1;97m   / __(_)_ _  ___  / /__ ____/ ___/______ _____/ /__
-\x1b[1;97m  _\ \/ /  ' \/ _ \/ / -_)___/ /__/ __/ _ `/ __/  '_/
-\x1b[1;97m /___/_/_/_/_/ .__/_/\__/    \___/_/  \_,_/\__/_/\_\ 
-\x1b[1;97m            /_/     """)
+____ ___ __  __ ____   ____ ____      _    ____ _  __
+/ ___|_ _|  \/  |  _ \ / ___|  _ \    / \  / ___| |/ /
+\___ \| || |\/| | |_) | |   | |_) |  / _ \| |   | ' /
+ ___) | || |  | |  __/| |___|  _ <  / ___ \ |___| . \
+|____/___|_|  |_|_|    \____|_| \_\/_/   \_\____|_|\_\     """)
     
 def tokenz():
 	os.system('clear')
@@ -179,7 +180,7 @@ def menu():
 
     logo()
     print(" "+p+"[*] Author     : Fall Xavier & Nadheo Alvaro") 
-    print(" [*] Github     : https://github.com/Fall-Xavier")
+    print(" [*] Github     : https://github.com/")
     print(" [*] ---------------------------------------------")
     print(" [*] ID         : "+id)
     print(" [*] IP         : "+ip)
@@ -556,4 +557,6 @@ def manualfreefb():
 if __name__ == '__main__':
     os.system('clear')
     tokenz()
+
+
 
